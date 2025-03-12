@@ -1,0 +1,11 @@
+# Den gesamten Ordner 'Quellen' ignorieren
+Quellen/
+
+# Alles im Ordner 'Obsidian' ignorieren, außer die Datei 'Notizen zu Quellen.md'
+Obsidian/*
+!Obsidian/Notizen zu Quellen.md
+
+# Alles im Ordner 'Zielvereinbarung' ignorieren, außer die Datei 'Zielvereinbarung.pdf'
+Zielvereinbarung/*
+!Zielvereinbarung/Zielvereinbarung.pdf
+
