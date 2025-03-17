@@ -109,3 +109,62 @@ Was anscheinend auch ein erfolgreicher Ansatz ist (Wie an anderen Softwarelösun
 
 --> Design is **compromise**
 
+# Schneider2017 - Haptic experience design - What hapticians do and where they need help
+
+## Hindernisse im haptischen Design (1.2 Obstacles to Design)
+
+- Begrenztes Wissen & wenig verfügbare Inhalte
+	Es gibt nur wenige etablierte Methoden oder Standards für haptisches Design.
+
+> [!PDF|] [[Schneider2017 - Haptic experience design - What hapticians do and where they need help.pdf#page=2&selection=392,1,409,8|Schneider2017 - Haptic experience design - What hapticians do and where they need help, p.6]]
+> > Haptic content remains scarce and design knowledge is limited.
+
+- Technologische Hürden
+	- Unterschiedliche Hardware-Plattformen erschweren die Entwicklung.
+	- Kommunikationsverzögerungen (Latenz) beeinflussen die haptische Qualität.
+
+> [!PDF|] [[Schneider2017 - Haptic experience design - What hapticians do and where they need help.pdf#page=2&selection=410,1,445,1|Schneider2017 - Haptic experience design - What hapticians do and where they need help, p.6]]
+> > Some issues are technological, such as highly variable hardware platforms and communications latency (Kaaresoja et al., 2014)
+
+- Menschliche Faktoren
+	- Individuelle Unterschiede in der Wahrnehmung von haptischen Reizen.
+	- Einfluss von Alter (sensorischer Abbau) und persönlichen Erfahrungen auf die Interpretation von Haptik.
+	- Enge Verbindung zwischen haptischer Wahrnehmung und anderen Sinnesmodalitäten.
+
+> [!PDF|] [[Schneider2017 - Haptic experience design - What hapticians do and where they need help.pdf#page=2&selection=447,0,619,7|Schneider2017 - Haptic experience design - What hapticians do and where they need help, p.6]]
+> > Other issues are human-centered, arising from individual user characteristics in perception and preferences: low-level perceptual variation (Lofvenberg and Johansson, 1984), responses to programmed (Levesque et al., 2011) and natural (Hollins et al., 2000) textures, sensory declines due to aging (Stevens, 1992; Stevens and Choo, 1996), and varied interpretation and appreciation of haptic effects and sensations (Seifi and MacLean, 2013; Seifi et al., 2015) – often because of personal experience (Schneider and MacLean, 2014), or of the close relationship between touch and other senses.
+> 
+
+# Schneider - Tactile Animation by Direct Manipulation of Grid Displays
+
+## Wichtige Anforderungen für haptische Design-Tools (LR Description)
+
+**Echtzeit-Wiedergabe (Real-Time Playback)**    
+    - Schnelles Prototyping ist essenziell, um VT-Sensationen iterativ zu verbessern.
+    - Direkte haptische Rückmeldung während der Gestaltung beschleunigt den Designprozess.
+    - Herausforderung: Zu viel Echtzeit-Feedback kann zu kognitiver Überlastung führen.
+**Laden, Speichern & Bearbeiten (Load, Save, Manipulate)**
+    - Dauerhafte Speicherung von Designs ermöglicht langfristige Projekte und Kollaboration.
+    - Klare Datenstrukturen erleichtern Funktionen wie Undo/Redo, um Experimente zu unterstützen.
+**Bibliothek von Effekten (Library of Effects)**
+    - Gespeicherte haptische Effekte helfen Designern, bewährte Muster wiederzuverwenden.
+    - Verhindert, dass frühere Konzepte unnötig neu entwickelt werden müssen.
+**Gerätekonfiguration (Device Configuration)**    
+    - Haptische Tools müssen unterschiedliche Hardware unterstützen.
+    - Konfigurationsdateien ermöglichen die Anpassung von Aktuatoren, Positionen & Algorithmen.
+**Mehrere Kanäle & Effekt-Kombinationen (Multiple Channels & Combination of Effects)**    
+    - Möglichkeit, mehrere haptische Effekte gleichzeitig oder sequentiell zu kombinieren.
+    - Oft dargestellt als Timeline, um zeitliches Verhalten von Effekten zu visualisieren.
+**Visuelle & direkte Steuerungsmetaphern (Visual/Direct Control Metaphor)**    
+    - Intuitive Darstellung von Geräten & Aktuatoren, um haptische Reize direkt zu manipulieren.
+    - Ermöglicht räumliches Denken über das haptische System.
+**Audio-/Visueller Kontext (Audio/Visual Context)**    
+    - Haptik wird stark von anderen Sinnen beeinflusst.
+    - Zusätzliche Audio- & visuelle Hinweise helfen, haptische Effekte besser wahrzunehmen.
+**Nutzerfeedback (User Feedback)**    
+    - A/B-Tests & Nutzer-Feedback sind entscheidend für die Bewertung und Verbesserung haptischer Designs.
+    - Ermöglicht, die Benutzererfahrung gezielt zu optimieren.
+
+> [!PDF|] [[Schneider - Tactile Animation by Direct Manipulation of Grid Displays.pdf#page=3&selection=0,2,63,101|Schneider - Tactile Animation by Direct Manipulation of Grid Displays, p.3]]
+> > LR Description LR1 Real-Time Playback [21, 26] Rapid prototyping is essential for working with VT sensations, especially in absence of objective metrics. Feeling a sensation at design time allows iteration to converge faster to better results. However, too real-time can cause split attention. LR2 Load, save, manipulate [14, 24, 26] A persistent object model is essential for sensation editing over longer projects and sharing with other designers or across devices. Well-defined actions upon a data structure also facilitates features like undo that support experimentation. LR3 Library of effects [6, 9, 23, 31, 32] A library of saved sensations is an important feature used in previous haptic authoring tools, providing inspiration and preventing designers from re-inventing the wheel. LR4 Device configuration [17–19, 23] Because of the many types of haptic devices, a general tool must be able to understand different devices. Lightweight configuration files are common in the literature, allowing users to select specific hardware, specify location and type of actuators, and choose a rendering algorithm. LR5 Multiple channels & combination of effects [6, 23, 25, 31, 32] Being able to display multiple effects simultaneously, or combine effects via superposition or concatenation, is essential for expanding the design space. This is typically represented in a timeline, which represents the temporal behaviour of any objects. LR6 Visual/direct control metaphor [3, 17, 23] Most previous tools consider each actuator separately. When thinking semantically about a spatial system, a direct view of the device and actuator layout is critical for direct manipulation. LR7 Audio/visual context [17, 21, 32] Haptic perception depends greatly on additional senses [8]. By providing audio and visual feedback, these effects can be mitigated and the designer can experience haptic sensations in context. LR8 User Feedback [26,32] Receiving feedback from users, either by demonstration or A/B testing, is extremely valuable.
+
