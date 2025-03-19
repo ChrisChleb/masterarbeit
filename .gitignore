@@ -5,9 +5,5 @@ Quellen/
 Obsidian/*
 !Obsidian/Notizen zu Quellen.md
 
-# Alles im Ordner 'Zielvereinbarung' ignorieren, außer die Datei 'Zielvereinbarung.pdf'
-Zielvereinbarung/*
-!Zielvereinbarung/Zielvereinbarung.pdf
-
 # Vorlage ignorieren
 Zielvereinbarung_Abschlussarbeit_Vorlage.pdf
